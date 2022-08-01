@@ -1,0 +1,45 @@
+#canvas {
+    position: fixed;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rotate {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    -webkit-appearance: none;;
+    background-color: #565375;
+    top: 85%;
+    left: 50%;
+    width: 50%;
+    height: 2.5%;
+    transform: translate(-50%, -50%);
+}
+
+#rotate::-webkit-slider-thumb {
+    appearance: none;
+    background: #7673a5;
+    width: 25px;
+    height: 25px;
+}
+
+#view {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    width: 4%;
+    height: 3%;
+    transform: translate(-50%, -50%);
+    background-color: #9693c5;
+    color: #262335;
+}
+
+body {
+    background-color: #262335;
+}

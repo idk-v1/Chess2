@@ -1,0 +1,46 @@
+Theme: chess
+Rendering: 2d
+Combat: turn based
+Inspiration: stakataka (https://www.youtube.com/watch?v=WWeDuAgUV8w)
+
+p - 
+Points: 5
+Movement: Forward only; Attacks diagonally; 1 at a time
+Ability1: Can move three spaces in a turn once per game and stuns enemy infront of it for 2 turns
+Ability2: Can shift move left or right if a friendly piece is infront of it
+Ability3: Can transform into other piece if it reaches the other side and turns back if it reaches it's own side
+
+n - 
+Points: 20
+Movement: 'L' shape only
+Ability1: Can sacrifice itself to remove all pawns 3x3 of it
+Ability2: Can not be stunned
+Ability3: Can not be killed by pawns
+
+b - 
+Points: 20
+Movement: Diagonal only
+Ability1: Can cure all stunned pieces in 3x3 of it's path when it moves
+Ability2: Can convert knights to team instead off killing them
+Ability3: If in 3x3 of pawn it can move left or right
+
+r - 
+Points: 45
+Movement: Straight only
+Ability1: Pawns cannot turn into pieces killed by rook
+Ability2: Stuns pieces in 3x3 of it when piece is killed
+Ability3: Can swap places with the king once per game
+
+q - 
+Points: 75
+Movement: Diagonal; Straight
+Ability1: Can split into a rook and a bishop to the left and right of it
+Ability2: Can kill all stunned pieces in 3x3 of it's path
+Ability3: If both rooks are killed it splits into a rook; same for bishops
+
+k - 
+Points: 100
+Movement: 2 at a time; Straight; Diagonal
+Ability1: If 8 pawns are in 3x3 of it, win the game
+Ability2: If killed, other pieces have 5 turns to tie the game; winner decided by points
+Ability3: If in check, all pieces have to block
